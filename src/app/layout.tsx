@@ -1,5 +1,5 @@
 import { FC, PropsWithChildren } from "react";
-import "./../sass/styles.scss";
+import "./../styles/styles.scss";
 
 export const metadata = {
   title: "G-ART",
@@ -19,6 +19,17 @@ const RootLayout: FC<PropsWithChildren> = ({ children }) => {
           name="google-site-verification"
           content="ElaVgP7AeT3eWe15NIfHZhMzSUEQqUsQFyUJ4y7TdxA"
         />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Recursive:wght,CASL,CRSV,MONO@300..1000,1,1,1&display=swap"
+          rel="stylesheet"
+        ></link>
       </head>
       <body>
         <main>{children}</main>

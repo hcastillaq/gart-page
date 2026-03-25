@@ -1,0 +1,17 @@
+@use "./tailwind.css";
+
+:root {
+  --font-size: 20px;
+  --font-family: "Recursive", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: var(--font-size);
+  font-family: var(--font-family);
+
+  background-color: #000;
+  color: #fff;
+}
